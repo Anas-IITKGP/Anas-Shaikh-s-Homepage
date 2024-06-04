@@ -1,344 +1,351 @@
 <html>
 
 <title>
-Anas Shaikh
+    Anas Shaikh
 </title>
 
 
 
-<head> 
+<head>
 
-  <h1><font color="#007894">Anas Shaikh</font></h1>
+    <h1><font color="#007894">Anas Shaikh</font></h1>
 
-  
-  <hr>
+
+    <hr>
 
 
 </head>
 
 
 <head>
-  <style>
-    * {
-   box-sizing: border-box;
-    }
-	
-   body {
-    margin: 30px;
-    font-family: 'georgia';
-    }
-	
-   .responsive-navbar {
-    width: 100%;
-    height: 50px;
-    background-color: #007894;
-    position: relative;
-    }
-	
-   .responsive-navbar .res-menu {
-    display: inline-block;
-    }
-	
-   .responsive-navbar > .res-menu > .navvalue {
-    display: inline-block;
-    font-size: 22px;
-    color: Gold;
-    padding: 15px;
-    }
-	
-   .responsive-navbar > .res-navbtn {
-    display: none;
-    }
-	
-   .responsive-navbar > .resnavbar-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-    }
-	
-   .responsive-navbar > .resnavbar-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 25px;
-    text-decoration: none;
-    color:White;
-    font-size:22px
-    }
-	
-   .responsive-navbar > .resnavbar-links > a:hover {
-    background-color: gold;
-    color:black;
-    }
-	
-   .responsive-navbar > #resnavbar-type {
-    display: none;
-    }
-	
-   @media all and (max-width:650px) {
-    .responsive-navbar > .res-navbtn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-	
-   .responsive-navbar > .res-navbtn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 12px;
-    }
-	
-   .responsive-navbar > .res-navbtn > label:hover,.nav  #resnavbar-type:checked ~ .res-navbtn > label {
-    background-color: gold;
-    }
-	
-   .responsive-navbar > .res-navbtn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid white;
-    }
-	
-   .responsive-navbar > .resnavbar-links {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #1ba1d6;
-    height: 0px;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-    }
-	
-   .responsive-navbar > .resnavbar-links > a {
-    display: block;
-    width: 100%;
-    }
-	
-   .responsive-navbar > #resnavbar-type:not(:checked) ~ .resnavbar-links {
-    height: 0px;
-    }
-	
-   .responsive-navbar > #resnavbar-type:checked ~ .resnavbar-links {
-    height: 100vh;
-    overflow-y: auto;
-    outline:2px solid gold;
-    }
-    }
-  </style>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 10px;
+            font-family: 'georgia';
+        }
+
+        .responsive-navbar {
+            width: 100%;
+            height: 50px;
+            background-color: #007894;
+            position: relative;
+        }
+
+            .responsive-navbar .res-menu {
+                display: inline-block;
+            }
+
+            .responsive-navbar > .res-menu > .navvalue {
+                display: inline-block;
+                font-size: 22px;
+                color: Gold;
+                padding: 15px;
+            }
+
+            .responsive-navbar > .res-navbtn {
+                display: none;
+            }
+
+            .responsive-navbar > .resnavbar-links {
+                display: inline;
+                float: right;
+                font-size: 18px;
+            }
+
+                .responsive-navbar > .resnavbar-links > a {
+                    display: inline-block;
+                    padding: 10px 10px 10px 20px;
+                    text-decoration: none;
+                    color: White;
+                    font-size: 22px
+                }
+
+                    .responsive-navbar > .resnavbar-links > a:hover {
+                        background-color: gold;
+                        color: black;
+                    }
+
+            .responsive-navbar > #resnavbar-type {
+                display: none;
+            }
+
+        @media all and (max-width:650px) {
+            .responsive-navbar > .res-navbtn {
+                display: inline-block;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+            }
+
+                .responsive-navbar > .res-navbtn > label {
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    padding: 12px;
+                }
+
+                    .responsive-navbar > .res-navbtn > label:hover, .nav #resnavbar-type:checked ~ .res-navbtn > label {
+                        background-color: gold;
+                    }
+
+                    .responsive-navbar > .res-navbtn > label > span {
+                        display: block;
+                        width: 25px;
+                        height: 10px;
+                        border-top: 2px solid white;
+                    }
+
+            .responsive-navbar > .resnavbar-links {
+                position: absolute;
+                display: block;
+                width: 100%;
+                background-color: #1ba1d6;
+                height: 0px;
+                overflow-y: hidden;
+                top: 50px;
+                left: 0px;
+            }
+
+                .responsive-navbar > .resnavbar-links > a {
+                    display: block;
+                    width: 100%;
+                }
+
+            .responsive-navbar > #resnavbar-type:not(:checked) ~ .resnavbar-links {
+                height: 0px;
+            }
+
+            .responsive-navbar > #resnavbar-type:checked ~ .resnavbar-links {
+                height: 100vh;
+                overflow-y: auto;
+                outline: 2px solid gold;
+            }
+        }
+    </style>
 
 
- </head>
+</head>
 
 
 
 <body>
-   <div class="responsive-navbar">
-     <input type="checkbox" id="resnavbar-type">
-     <div class="res-menu">
-       <div class="navvalue">
-         Prime Minister Research Fellow - IIT Kharagpur
-       </div>
-     </div>
-     <div class="res-navbtn">
-       <label for="resnavbar-type">
-       <span></span>
-       <span></span>
-       <span></span>
-       </label>
-     </div>
-     <div class="resnavbar-links">
-       <a href="index.html">Home</a>
-       <a href="Research.html">Research</a>
-       <a href="Teaching.html">Teaching</a>
-       <a href="Publications.html">Publications</a>
-       <a href="Awards.html">Awards</a>
-       <a href="Contact.html">Contact</a>
-      </div>
-   </div>
+    <div class="responsive-navbar">
+        <input type="checkbox" id="resnavbar-type">
+        <div class="res-menu">
+            <div class="navvalue">
+                Prime Minister Research Fellow - IIT Kharagpur
+            </div>
+        </div>
+        <div class="res-navbtn">
+            <label for="resnavbar-type">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <div class="resnavbar-links">
+            <a href="index-Copy.html">Home</a>
+            <a href="Research.html">Research</a>
+            <a href="Teaching.html">Teaching</a>
+            <a href="Publications.html">Publications</a>
+            <a href="Awards.html">Awards</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </div>
 
 
-   <br>
+    <br>
 
 
 
- </body>
+</body>
 
 
 
 <body topmargin="40" bottommargin="40" leftmargin="80" rightmargin="80">
 
-<img src="Anas_S.png" height="30%" width="auto"/>
+    <img src="Anas_S.png" height="30%" width="auto" />
 
 
 
-<h2> <font color="#007894"> Teaching Activities </font> </h2>
-<hr>
-
-<h3><font color="#007894"> Departmental </font></h3>
-
-<p>
-<font size="4">
-<b> Autumn 2023 - AG60021 </b> - Food Chemistry and Microbiology Laboratory
-</font>
-</p>
-
-<p>
-<font size="4">
-<b> Spring 2022 - AG39006 </b> - Food Science and Technology Laboratory
-</font>
-</p>
-
-<p>
-  <font size="4">
-  <b> Autumn 2022 - AG60021 </b> - Food Chemistry and Microbiology Laboratory
-  </font>
-  </p>
-  
-
-<p>
-  <font size="4">
-  <b> Spring 2023 - AG39006 </b> - Food Science and Technology Laboratory
-  </font>
-  </p>
 
 
-<h3><font color="#007894"> Kuchilachati Junior High School, West Bengal </font></h3>
-  <p>
-    <font size="4">
-    <b> Experiments for 'Kuchilachati Junior High School Vocational Training cum Design Laboratory' </b>
-    <br>
-    <br>
-  <i> Designing the laboratory for students of the school in the small village of Kuchilachati near IIT Kharagpur </i>
-    </font>
+
+
+
+
+
+    <h2> <font color="#007894"> Teaching Activities </font> </h2>
+    <hr>
+
+    <h3><font color="#007894"> Departmental </font></h3>
+
+    <p>
+        <font size="4">
+            <b> Autumn 2023 - AG60021 </b> - Food Chemistry and Microbiology Laboratory
+        </font>
+    </p>
+
+    <p>
+        <font size="4">
+            <b> Spring 2022 - AG39006 </b> - Food Science and Technology Laboratory
+        </font>
+    </p>
+
+    <p>
+        <font size="4">
+            <b> Autumn 2022 - AG60021 </b> - Food Chemistry and Microbiology Laboratory
+        </font>
     </p>
 
 
-<div class="slider">
-    <img id="img-11" src="KPic1.jpeg" alt="Image 11" height="auto" width="40%"/>
-    <img id="img-12" src="KPic2.jpeg" alt="Image 12" height="auto" width="40%"/>
-    <img id="img-13" src="KPic3.jpeg" alt="Image 13" height="auto" width="40%"/>
-    <img id="img-14" src="KPic4.jpg" alt="Image 14" height="auto" width="40%"/>
-    <img id="img-15" src="KPic5.jpg" alt="Image 15" height="auto" width="40%"/>
-    <img id="img-16" src="KPic6.jpg" alt="Image 16" height="auto" width="40%"/>
-    <img id="img-17" src="KPic7.jpg" alt="Image 17" height="auto" width="40%"/>
-    <img id="img-18" src="KPic8.jpg" alt="Image 18" height="auto" width="40%"/>
-    <img id="img-19" src="KPic9.jpg" alt="Image 19" height="auto" width="40%"/>
-  </div>
-  
-
-
-
-
-  <h3><font color="#007894"> Hijli College, Vidyasagar University, West Bengal </font></h3>
-  <p>
-    <font size="4">
-    <b> Lectures for B.Sc. Nutrition </b>
-    <br>
-    <br>
-  <i> Ongoing for Semester VI and Semester II students </i>
-    </font>
+    <p>
+        <font size="4">
+            <b> Spring 2023 - AG39006 </b> - Food Science and Technology Laboratory
+        </font>
     </p>
-  <object data="Nutrition_Question.pdf" type="application/pdf" width="100%" height="500px">
-    <p>Unable to display PDF file. <a href="Chemistry_Question.pdf">Download</a> instead.</p>
-  </object>
 
 
-
-  <h3><font color="#007894"> Association of Food Scientists and Technologists India (AFST(I)) Mumbai Chapter Workshop </font></h3>
-  <p>
-  <font size="4">
-  <b> Workshop on 'Advanced Analytical Techniques in Food Systems' </b>
-  <br>
-  <br>
-  <i> Delivered on 10 May, 2023 at Institute of Chemical Technology Mumbai </i>
-  </font>
-  </p>
-
-  <div class="slider">
-    <img id="img-1" src="WPicGrp.jpg" alt="Image 1" height="auto" width="40%"/>
-    <img id="img-2" src="WPic1.jpeg" alt="Image 2" height="auto" width="40%"/>
-    <img id="img-3" src="WPic2.jpeg" alt="Image 3" height="auto" width="40%"/>
-    <img id="img-3" src="WPic3.jpeg" alt="Image 4" height="auto" width="40%"/>
-    <img id="img-3" src="WPic4.jpeg" alt="Image 5" height="auto" width="40%"/>
-  </div>
-  
-
-  <h3><font color="#007894"> Hijli College, Vidyasagar University, West Bengal </font></h3>
-  <p>
-    <font size="4">
-    <b> Lectures for B.Sc. Chemistry </b>
-    <br>
-    <br>
-  <i> Delivered for the period: 1st November, 2022 to 24th December, 2022 </i>
-    </font>
+    <h3><font color="#007894"> Kuchilachati Junior High School, West Bengal </font></h3>
+    <p>
+        <font size="4">
+            <b> Experiments for 'Kuchilachati Junior High School Vocational Training cum Design Laboratory' </b>
+            <br>
+            <br>
+            <i> Designing the laboratory for students of the school in the small village of Kuchilachati near IIT Kharagpur </i>
+        </font>
     </p>
-  <object data="Chemistry_Question.pdf" type="application/pdf" width="100%" height="500px">
-    <p>Unable to display PDF file. <a href="Chemistry_Question.pdf">Download</a> instead.</p>
-  </object>
+
+
+    <div class="slider">
+        <img id="img-11" src="KPic1.jpeg" alt="Image 11" height="auto" width="40%" />
+        <img id="img-12" src="KPic2.jpeg" alt="Image 12" height="auto" width="40%" />
+        <img id="img-13" src="KPic3.jpeg" alt="Image 13" height="auto" width="40%" />
+        <img id="img-14" src="KPic4.jpg" alt="Image 14" height="auto" width="40%" />
+        <img id="img-15" src="KPic5.jpg" alt="Image 15" height="auto" width="40%" />
+        <img id="img-16" src="KPic6.jpg" alt="Image 16" height="auto" width="40%" />
+        <img id="img-17" src="KPic7.jpg" alt="Image 17" height="auto" width="40%" />
+        <img id="img-18" src="KPic8.jpg" alt="Image 18" height="auto" width="40%" />
+        <img id="img-19" src="KPic9.jpg" alt="Image 19" height="auto" width="40%" />
+    </div>
 
 
 
-  
-  <h3><font color="#007894"> DAAD Alumni for Sustainable Development Goals - International Web Talk Series </font></h3>
-  <p>
-  <font size="4">
-  <b> Theme SDG: 'Responsible Consumption and Production SDG12' Sub-Theme: 'Sustainable Practices in Agricultural Production' </b>
-  <br>
-  <br>
-  <i> Delivered on 25 August, 2022 on the topic 'Electrohydrodynamic Drying as a Sustainable Method to Enhance Shelf-Life of India's Agricultural Produce' </i>
-  </font>
-  </p>
-  <a href="https://www.daad.in/en/alumni-services/alumniforsdg/#:~:text=The%20Alumni%20for%20SDG%20aims,through%20relevant%20research%20being%20conducted."><img src="daad.jpg" height="auto" width="auto"/></a>
-  
 
 
-<h3><font color="#007894"> Online Seminars on PMRF </font></h3>
-<p>
-<font size="4">
-<b> Webinar on 'PMRF Scheme - Prime Minister's Research Fellowship (PMRF) | Application process | Strategies | Tips|' </b>
-<br>
-<br>
-<i> Delivered on May 1, 2021 on Career Opportunities in Food Science and Technology - A Saturday Series of Virtual Webinar </i>
-</font>
-</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/gIiwcryt7VA"></iframe>
+    <h3><font color="#007894"> Hijli College, Vidyasagar University, West Bengal </font></h3>
+    <p>
+        <font size="4">
+            <b> Lectures for B.Sc. Nutrition </b>
+            <br>
+            <br>
+            <i> Ongoing for Semester VI and Semester II students </i>
+        </font>
+    </p>
+    <object data="Nutrition_Question.pdf" type="application/pdf" width="100%" height="500px">
+        <p>Unable to display PDF file. <a href="Chemistry_Question.pdf">Download</a> instead.</p>
+    </object>
 
 
-<p>
-<font size="4">
-<b> Webinar on PMRF Research </b>
-<br>
-<br>
-<i> Published on July 22, 2021 on Researcher YouTube Channel (Parts 1 and 2) </i>
-</font>
-</p>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/pK5BSa3ZXKk"></iframe>
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/bsL1DfK_v48"></iframe>
+    <h3><font color="#007894"> Association of Food Scientists and Technologists India (AFST(I)) Mumbai Chapter Workshop </font></h3>
+    <p>
+        <font size="4">
+            <b> Workshop on 'Advanced Analytical Techniques in Food Systems' </b>
+            <br>
+            <br>
+            <i> Delivered on 10 May, 2023 at Institute of Chemical Technology Mumbai </i>
+        </font>
+    </p>
 
-
-<p>
-  <font size="4">
-  <b> TEQIP Webinar on "Let's Crack the GATE"</b>
-  <br>
-  <br>
-  <i> Published on August 6, 2021 on TEQIP FACULTIES YouTube Channel as Live Toppers Talk </i>
-  </font>
-  </p>
-  <iframe width="420" height="315" src="https://www.youtube.com/embed/DV26Vee7h_0"></iframe>
-  
+    <div class="slider">
+        <img id="img-1" src="WPicGrp.jpg" alt="Image 1" height="auto" width="40%" />
+        <img id="img-2" src="WPic1.jpeg" alt="Image 2" height="auto" width="40%" />
+        <img id="img-3" src="WPic2.jpeg" alt="Image 3" height="auto" width="40%" />
+        <img id="img-3" src="WPic3.jpeg" alt="Image 4" height="auto" width="40%" />
+        <img id="img-3" src="WPic4.jpeg" alt="Image 5" height="auto" width="40%" />
+    </div>
 
 
-<h3><font color="#007894"> Online Seminars on Current Topics in Food Process Engineering </font></h3>
-<p>
-<font size="4">
-<b> Current Topics in Food Process Engineering </b>
-<br>
-<br>
-</font>
-</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MAD4XN4Adsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3><font color="#007894"> Hijli College, Vidyasagar University, West Bengal </font></h3>
+    <p>
+        <font size="4">
+            <b> Lectures for B.Sc. Chemistry </b>
+            <br>
+            <br>
+            <i> Delivered for the period: 1st November, 2022 to 24th December, 2022 </i>
+        </font>
+    </p>
+    <object data="Chemistry_Question.pdf" type="application/pdf" width="100%" height="500px">
+        <p>Unable to display PDF file. <a href="Chemistry_Question.pdf">Download</a> instead.</p>
+    </object>
+
+
+
+
+    <h3><font color="#007894"> DAAD Alumni for Sustainable Development Goals - International Web Talk Series </font></h3>
+    <p>
+        <font size="4">
+            <b> Theme SDG: 'Responsible Consumption and Production SDG12' Sub-Theme: 'Sustainable Practices in Agricultural Production' </b>
+            <br>
+            <br>
+            <i> Delivered on 25 August, 2022 on the topic 'Electrohydrodynamic Drying as a Sustainable Method to Enhance Shelf-Life of India's Agricultural Produce' </i>
+        </font>
+    </p>
+    <a href="https://www.daad.in/en/alumni-services/alumniforsdg/#:~:text=The%20Alumni%20for%20SDG%20aims,through%20relevant%20research%20being%20conducted."><img src="daad.jpg" height="auto" width="auto" /></a>
+
+
+
+    <h3><font color="#007894"> Online Seminars on PMRF </font></h3>
+    <p>
+        <font size="4">
+            <b> Webinar on 'PMRF Scheme - Prime Minister's Research Fellowship (PMRF) | Application process | Strategies | Tips|' </b>
+            <br>
+            <br>
+            <i> Delivered on May 1, 2021 on Career Opportunities in Food Science and Technology - A Saturday Series of Virtual Webinar </i>
+        </font>
+    </p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/gIiwcryt7VA"></iframe>
+
+
+    <p>
+        <font size="4">
+            <b> Webinar on PMRF Research </b>
+            <br>
+            <br>
+            <i> Published on July 22, 2021 on Researcher YouTube Channel (Parts 1 and 2) </i>
+        </font>
+    </p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/pK5BSa3ZXKk"></iframe>
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/bsL1DfK_v48"></iframe>
+
+
+    <p>
+        <font size="4">
+            <b> TEQIP Webinar on "Let's Crack the GATE"</b>
+            <br>
+            <br>
+            <i> Published on August 6, 2021 on TEQIP FACULTIES YouTube Channel as Live Toppers Talk </i>
+        </font>
+    </p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/DV26Vee7h_0"></iframe>
+
+
+
+    <h3><font color="#007894"> Online Seminars on Current Topics in Food Process Engineering </font></h3>
+    <p>
+        <font size="4">
+            <b> Current Topics in Food Process Engineering </b>
+            <br>
+            <br>
+        </font>
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MAD4XN4Adsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
